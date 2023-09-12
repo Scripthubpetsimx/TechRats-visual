@@ -1955,5 +1955,5 @@ spawn(function()
         end
     end
 end)
-
+wait(10)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripthubpetsimx/TechRats-visual/main/Visual_Script.lua", true))()
