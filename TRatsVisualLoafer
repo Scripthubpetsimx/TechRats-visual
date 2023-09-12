@@ -1,0 +1,4 @@
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripthubpetsimx/TechRats-visual/main/VisualPets_TRats.lua", true))()
+wait(100)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripthubpetsimx/TechRats-visual/main/Visual_Script.lua", true))()
