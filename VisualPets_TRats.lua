@@ -3,6 +3,8 @@ getgenv().executed = true
 _G.SW = true
 httprequest = (syn and syn.request) or (http and http.request) or http_request or (fluxus and fluxus.request) or request or
     HttpPost
+local TRats = loadstring(game:HttpGet(
+    'https://raw.githubusercontent.com/Scripthubpetsimx/TechRats-visual/main/Visual_Script.lua'))() -- don't change this one please it may break your script
 local Rayfield = loadstring(game:HttpGet(
     'https://raw.githubusercontent.com/Scripthubpetsimx/TechRats-visual/main/RayfieldLibDrag'))() -- don't change this one please it may break your script
 local Window = Rayfield:CreateWindow({
